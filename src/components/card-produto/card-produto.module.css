@@ -1,0 +1,84 @@
+.card_produto{
+    width: 280px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    /* garante que a imagem respeite o radius */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+    height: 400px;
+}
+
+/* imagem do topo */
+.img_produto{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.titulo_produto {
+    background: var(--vinho);
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    /* padding: 14px 10px; */
+    margin: 0;
+    height: 50px;
+    align-content: center;
+}
+
+.desc_produto {
+    color: #000;
+    font-size: 16px;
+    /* padding: 26px 18px; */
+    margin: 0;
+    /* altura da linha do texto, ou seja, o espaço vertical entre uma linha e outra.
+Pensa nele como o “respiro” do texto */
+    line-height: 1.4;
+    height: calc(400px - 290px);
+    align-content: center;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    padding: 20px;
+}
+
+.campo_itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--vinho);
+    height: 60px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.campo_itens img {
+    width: 40px;
+    height: 40px;
+}
+
+.valor_produto {
+    color: var(--laranja-destaque);
+    font-weight: 600;
+    font-size: 22px;
+    /* padding: 16px; */
+    margin: 0;
+}
+
+.campo_itens button{
+    background: none;
+    border: none;
+}
+
+
+.produto_inativo {
+    filter: blur(3px);
+    opacity: 0.5;
+}

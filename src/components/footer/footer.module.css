@@ -1,0 +1,60 @@
+/* -----------------------------FOOTER--------------------------------- */
+#footer_home {
+    background: var(--vinho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_vhburguer_footer {
+    width: 150px;
+
+}
+
+#icons {
+    display: flex;
+    gap: 14px;
+}
+
+#icons img {
+    width: 25px;
+    height: 25px;
+
+    display: block;
+    cursor: pointer;
+}
+
+/* linha */
+#linha {
+    height: 1px;
+    width: 100%;
+    background: var(--laranja-destaque);
+    opacity: .4;
+}
+
+/* copyright */
+#footer_home p {
+    margin: 0;
+    text-align: center;
+    color: var(--laranja-destaque);
+    font-size: var(--fonte-texto);
+    font-weight: 500;
+}
+
+
+
+/* -----------------------------FIM FOOTER--------------------------------- */

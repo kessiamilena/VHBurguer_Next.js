@@ -1,0 +1,247 @@
+/* -----------------------------BANNER HAMBURGUER--------------------------------- */
+#banner {
+    background-color: var(--fundo-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    height: 90%;
+}
+
+.container_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    padding: 75px 0;
+}
+
+.container_banner h1 {
+    color: var(--laranja-destaque);
+    font-size: var(--tamanho-titulo);
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#botoes_banner_hamburguer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn_atendimento,
+.btn_cardapio {
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    font-size: var(--tamanho-texto-btn);
+}
+
+.btn_atendimento {
+    background-color: var(--laranja-destaque);
+    color: var(--vinho);
+}
+
+.btn_cardapio {
+    background-color: var(--vinho);
+    color: var(--laranja-destaque);
+}
+
+.container_banner img {
+    width: 60%;
+    min-width: 400px;
+}
+
+/* -----------------------------FIM BANNER HAMBURGUER--------------------------------- */
+
+
+/* -----------------------------SECTION DESTAQUES--------------------------------- */
+
+.destaques {
+    background-color: var(--fundo-escuro);
+
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.container_destaques {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    gap: 20px;
+
+    /* grid-template-columns: 1.3fr 1fr;
+    align-items: center;
+    width: 66%;
+    display: grid; */
+}
+
+.cards_direita {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 20px;
+}
+
+.card_destaque_mais_pedidos,
+.card_destaque_muito_bacon,
+.card_destaque_super_combos {
+    color: var(--fundo-claro);
+}
+
+.card_destaque_mais_pedidos {
+    background-image: url(../../../public/imgs/mais_pedidos.png);
+    height: 80%;
+    width: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding: 20px;
+
+    font-size: 25px;
+
+    border-radius: 10px;
+}
+
+.card_destaque_muito_bacon {
+    background-image: url(../../../public/imgs/muito_bacon.png);
+    height: 40%;
+    /* width: 400px; */
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding: 20px;
+
+    font-size: 25px;
+
+    border-radius: 10px;
+}
+
+.card_destaque_super_combos {
+    background-image: url(../../../public/imgs/super_combos.png);
+    height: 40%;
+    /* width: 500px; */
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding: 20px;
+
+    font-size: 25px;
+
+    border-radius: 10px;
+}
+
+
+.destaque {
+    text-transform: uppercase;
+}
+
+/* -----------------------------FIM SECTION DESTAQUES--------------------------------- */
+
+/* -----------------------------SECTION CARDAPIO--------------------------------- */
+.cardapio {
+    background-color: var(--fundo-claro);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container_cardapio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 75px 0;
+}
+
+.container_cardapio h2 {
+    color: var(--laranja-destaque);
+    font-size: var(--tamanho-subtitulo);
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+
+
+/* -----------------------------FIM SECTION CARDAPIO--------------------------------- */
+
+
+/* -----------------------------SECTION UNIDADES--------------------------------- */
+.unidades {
+    background: linear-gradient(#00000080, #00000080),url("../../../public/imgs/unidade.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+}
+
+.container_unidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    height: 100%;
+
+    padding: 50px 0;
+
+
+}
+
+.texto_unidades {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.texto_unidades h2 {
+    font-size: var(--tamanho-titulo);
+    font-weight: 500;
+    text-transform: uppercase;
+    align-self: left;
+}
+
+.lista_unidades {
+    font-size: var(--fonte-texto);
+    line-height: 2.5;
+    list-style: none;
+}
+
+/* -----------------------------FIM SECTION UNIDADES--------------------------------- */
+
+
